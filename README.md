@@ -2,7 +2,7 @@ Project Name (Smart Attendance & Analytics System)
 
 Introduction
 
-This project provides a Flask application that enables you to manage your facial recognition framework and API. It offers functionalities for adding faces to the recognition database, potentially interacting with external systems, and visualizing faces.
+A Vision Based Flask application that enables you to Track and Monitor attendance and access individual statistics for analysis. This project not only facilitates the process of attendance tracking but also helps in analytics by reading patterns and statistics which can also be used for commercial and reasearch purposes
 
 Key Features
 
@@ -23,7 +23,8 @@ Installation
 1.⁠ ⁠Prerequisites:
    - Python 3.x (Specify the required new version)
    - Flask (Install using ⁠ pip install Flask ⁠)
-   - OpenCV, AWS, MongoDB Atlas, sklearn, Stream lit
+   - OpenCV, MongoDB Atlas, sklearn, Streamlit,
+   - Comfortable with deep learning libraries & MltoolBox
 
 2.⁠ ⁠Clone the Repository:
 
@@ -32,12 +33,12 @@ Installation
 
 3. Framework and Library Integration
 
-   Install Open-CV , Deep Learning, Streamlit, sklearn, MLToolBox and Integrate MongoDB Atlas for Database ,Numpy and Matplotlib for analytics.
+   Install Open-CV , Deep Learning, Streamlit, sklearn, MLToolBox and Integrate MongoDB Atlas for Database ,Numpy ,Matplotlib & Seaborn for analytics and 
+    Visualisation.
 
 GETTING INTO THE PROJECT:
 
 Documentation:-
-[
 Smart Attendance System that use framework and api using flask Add_faces.py is responsible for registering the faces. Face recognition modules are used for face detection.
 Face recognition modules are software components that enable applications to identify or verify individuals based on their facial features. They are commonly used in various security, access control, and marketing applications. Here's a breakdown of key concepts:
 Functionality:
@@ -45,10 +46,9 @@ Functionality:
 2. Feature Extraction: It extracts unique facial features like distances between eyes, nose shape, and jawline.
 3. Face Recognition: These features are compared to a database of stored faces to identify or verify an individual.
 Which Type of Face Recognition Modules we use in this project:
-* Pre-trained Models: These are readily available models trained on large datasets of labeled faces. Examples include:
-    * OpenCV's Haar Cascade Classifiers.
-    * Kairos recognition library used.
-    * KNN from deep learning.
+* Pre-trained Models: These are readily available models trained on large datasets of labeled faces.
+* OpenCV's Haar Cascade Classifiers.
+* KNN from deep learning.
 
 Applications of Face Recognition Modules:
 * Security and Access Control: Identifying authorized personnel for building access or verifying identities for financial transactions.
